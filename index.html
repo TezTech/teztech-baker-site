@@ -15,19 +15,19 @@
     <section id="siteheader" class="site-header">
         <div class="container-fluid">
 
-            <div class="site-header__social">
+            <div style="z-index: 200;" class="site-header__social">
                 <p class="mb-0">Follow Us</p>
                 <div class="vertical-line vertical-line--center mb-4"></div>
-                <a href="#">
+                <a href="https://github.com/TezTech" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18"><defs><path id="b249a" d="M1617 5730c-4.972 0-9 4.13-9 9.227 0 4.076 2.579 7.537 6.155 8.756.452.084.615-.198.615-.444 0-.22-.008-.8-.011-1.568-2.505.555-3.032-1.238-3.032-1.238-.41-1.067-1-1.352-1-1.352-.817-.57.062-.558.062-.558.903.066 1.377.949 1.377.949.803 1.411 2.106 1.003 2.62.769.081-.598.316-1.004.57-1.235-1.997-.231-4.098-1.024-4.098-4.56 0-1.009.351-1.832.925-2.478-.09-.23-.4-1.17.088-2.441 0 0 .756-.247 2.476.946a8.406 8.406 0 0 1 2.253-.31 8.406 8.406 0 0 1 2.253.31c1.72-1.193 2.473-.946 2.473-.946.492 1.27.184 2.21.09 2.441.577.646.923 1.47.923 2.479 0 3.544-2.103 4.322-4.107 4.553.322.283.609.847.609 1.707 0 1.234-.008 2.228-.008 2.532 0 .246.16.534.618.444 3.573-1.222 6.149-4.68 6.149-8.756 0-5.097-4.028-9.227-9-9.227z"/></defs><g><g transform="translate(-1608 -5730)"><use fill="#fff" xlink:href="#b249a"/></g></g></svg>
                 </a>
-                <a class="d-block pt-4" href="#">
+                <a class="d-block pt-4" href="https://twitter.com/TezTechLabs" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="15" viewBox="0 0 18 15"><defs><path id="lv01a" d="M1667 5733.776a7.213 7.213 0 0 1-2.12.596 3.778 3.778 0 0 0 1.623-2.095 7.273 7.273 0 0 1-2.346.918 3.642 3.642 0 0 0-2.695-1.195c-2.038 0-3.692 1.696-3.692 3.787 0 .296.032.585.095.862-3.069-.158-5.79-1.664-7.612-3.958a3.856 3.856 0 0 0-.5 1.906c0 1.313.652 2.472 1.643 3.152a3.626 3.626 0 0 1-1.673-.473v.047c0 1.835 1.273 3.366 2.963 3.713-.31.089-.636.133-.973.133-.238 0-.47-.023-.695-.067.47 1.504 1.833 2.599 3.45 2.628a7.292 7.292 0 0 1-5.468 1.57 10.282 10.282 0 0 0 5.66 1.7c6.794 0 10.508-5.77 10.508-10.774 0-.164-.003-.329-.01-.49a7.58 7.58 0 0 0 1.842-1.96"/></defs><g><g transform="translate(-1649 -5732)"><use fill="#fff" xlink:href="#lv01a"/></g></g></svg>
                 </a>
             </div>
 
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="#"><img src="theme/dist/images/logo.png" alt="TezTechLab" class="img-fluid"></a>
+            <nav style="z-index: 100;" class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#"><img src="theme/dist/images/logo.png" alt="TezTechLab" class="img-fluid" style="width:239px;"></a>
 
                 <button class="navbar-toggler hamburger hamburger--slider" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,9 +48,6 @@
                             <a class="nav-link" href="#infrastructure">Infrastructure</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#team">The Team</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#faqs">FAQ</a>
                         </li>
                         <li class="nav-item">
@@ -63,19 +60,19 @@
 
         <div class="container">
 
-            <div class="site-header__content">
-                <img src="theme/dist/images/big-logo.png" alt="TezTech logo" class="img-fluid">
+            <div style="position: relative;z-index: 100;" class="site-header__content">
+                <img src="theme/dist/images/big-logo.png" style="height: 150px;" alt="TezTech logo" class="img-fluid">
 
-                <p>Support us with your delegatoin, and we will grow the Tezos ecosystem.</p>
+                <p>Support us with your delegation, and we will grow the Tezos ecosystem.</p>
 
                 <h3>Our Delegate Address:</h3>
 
              
                 <div class="tz-address">
-                    <span>COMING SOON</span>
+                    <span>tz1Vtimi84kLh9RANfRVX2JvYtP4NPCT1aFm</span>
                 </div>
-                <!--<a class="btn btn-primary">Copy Address</a>
-                <a href="" class="btn btn-success">TZ Scan</a>-->
+                <a href="#" class="btn btn-primary btn-copy">Copy Address</a>
+                <a href="https://tzscan.io/tz1Vtimi84kLh9RANfRVX2JvYtP4NPCT1aFm?default=baking" target="_blank" class="btn btn-success">TZ Scan</a>
 
             </div>
             <style>
@@ -132,7 +129,7 @@
         <div class="container">
             <div class="text-center">
                 <h2>Delegation <span class="text-success">Service</span></h2>
-                <p class="mb-4">We provide a premium service with some of the best features</p>
+                <p class="mb-4"><strong>We provide a premium service with some of the best features</strong></p>
                 <div class="vertical-line vertical-line--center"></div>
                 <div class="row pt-5">
                     <div class="mx-auto col-sm-6 col-lg-4">
@@ -146,7 +143,7 @@
                         <div class="service__feature">
                             <img src="theme/dist/images/rewards.png" alt="Guaranteed Rewards" class="img-fluid mb-4 mb-lg-5">
                             <h3 class="mb-4">Guaranteed Rewards</h3>
-                            <p class="text-center">We guarantee all of your baking rewards - this means that even if we miss a block, you will still get paid. That's how confident we are in our baking operation!</p>
+                            <p class="text-center">We guarantee all block rewards - this means that even if we miss baking a block, you will still get paid. That's how confident we are in our baking operation!</p>
                         </div>
                     </div>
                     <div class="mx-auto col-sm-6 col-lg-4">
@@ -185,21 +182,6 @@
     </section>
 
 
-    <section id="promotion" class="bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 d-flex align-items-center">
-                    <div>
-                        <h2 class="gradient-heading mb-4">For a limited time</h2>
-                        <p class=" text-white">We will be offering our baking services for <span class="text-success">0% commission</span> until cycle 55! That means you will earn as if you are baking yourself, without the hassle of actually baking.</p>
-                    </div>
-                </div>
-                <div class="col-lg-5 text-center">
-                    <img src="theme/dist/images/fee-illustration.png" alt="Fee illustration">
-                </div>
-            </div>
-        </div>
-    </section>
 
 
     <!-- Infrastructure -->
@@ -211,70 +193,17 @@
                 <div class="col-lg-6">
                     <p>We are one of the most experienced teams when it comes to undertstanding the Tezos protocol, running/maintaining nodes, and baking on Tezos. We have operated baking nodes as early as baking itself and have a vast amount of knowledge surrounding it.</p>
                     <img class="d-lg-none mb-4 img-fluid" src="theme/dist/images/lab-illustration.png" alt="Lab illustration">
-                    <p>We will run a network of edge nodes hosted in professional datacenters, with high availability and connectivity. This network will be distrubted around the world, and will ensure an up to date and optimized mempool. We operate a similar network that is used to power the TezBox wallet.</p>
+                    <p>We will run a network of edge nodes hosted in professional datacenters, with high availability and connectivity. This network will be distributed around the world, and will ensure an up to date and optimized mempool. We operate a similar network that is used to power the TezBox wallet.</p>
                 </div>
             </div>
 
-            <p class="d-sm-none"><span class="text-success">Our baking machines will be run in private, connected via a VPN.</span> Our baking keys will be secured on a hardware wallet. Multiple redundancies will be in place to ensure 100% baking uptime.</p>
+            <p class="d-sm-none"><span class="text-success">Our baking machines will be run in private, connected via a VPN.</span> Our baking keys will be secured on a HSM. Multiple redundancies will be in place to ensure 100% baking uptime.</p>
 
             <p class="font-weight-bold">On top of this, we wil operate different monitoring services and DDOS protection to keep our baking operation running smoothly and without issues.</p>
         </div>
     </section>
 
-    <!-- The team -->
-    <section id="team">
-        <div class="container text-center">
-            <div class="vertical-line vertical-line--center mb-5"></div>
-            <h2>The <span class="text-success">Team</span></h2>
-            <p class="mb-5">Meet the visionaries working behind the scenes of TezTech Lab.</p>
-            <div class="row">
-                <div class="col-sm-6 col-lg-3">
-                    <div class="team-member">
-                        <div class="team-member__image">
-                            <img class="img-fluid" src="theme/dist/images/staff-placeholder.png" alt="Staff Placeholder">
-                        </div>
-                        <h3 class="text-primary">Stephen</h3>
-                        <p class="team-member__bio">Stephen serves as an unpaid volunteer board member on the Tezos Commons Foundation, and is a
-                            well know community figure and developer.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="team-member">
-                        <div class="team-member__image">
-                            <img class="img-fluid" src="theme/dist/images/staff-placeholder.png" alt="Staff Placeholder">
-                        </div>
-                        <h3 class="text-primary">Katherine</h3>
-                        <p class="team-member__bio">Katherine provides excellent customer support, strategic management and administrative
-                            expertise for TezTech.</p>
-                        
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="team-member">
-                        <div class="team-member__image">
-                            <img class="img-fluid" src="theme/dist/images/staff-placeholder.png" alt="Staff Placeholder">
-                        </div>
-                        <h3 class="text-primary">Keith</h3>
-                        <p class="team-member__bio">Keith provides professional support services in relation to the baking operation.</p>
-                        
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="team-member">
-                        <div class="team-member__image">
-                            <img class="img-fluid" src="theme/dist/images/staff-placeholder.png" alt="Staff Placeholder">
-                        </div>
-                        <h3 class="text-primary">Mac</h3>
-                        <p class="team-member__bio">Mac provides design and user experience expertise that allows us to provide beautiful
-                            interfaces for our users.</p>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQs -->
+		<!-- FAQs -->
     <section id="faqs" class="bg-light">
         <div class="container">
             <div class="row">
@@ -288,9 +217,9 @@
                         <div class="accordian__item">
                             <div class="accordian__item-header">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link accordian__toggle" data-toggle="collapse" data-target="#collapseOne"
+                                    <button class="btn btn-link accordian__toggle" data-toggle="collapse" data-target="#collapse1"
                                         aria-expanded="true" aria-controls="collapseOne">
-                                        <div>I forgot my password. How do I request my login information?</div>
+                                        <div>When do I receive my rewards?</div>
                                         <div class="accordian__toggle-icon">
                                             <img src="theme/dist/images/icons/plus-icon.svg" alt="Plus icon">
                                             <img src="theme/dist/images/icons/minus-icon.svg" alt="Minus icon">
@@ -299,20 +228,17 @@
                                 </h5>
                             </div>
 
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Curabitur
-                                    blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus.
-                                    Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis
-                                    consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed
-                                    consectetur.</p>
+                            <div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <p>Once you delegate to us, it can take up to two cycles for your stake to register to us on the network. Once that starts, we receive rights to bake blocks in the future using your stake. Our policy is that we pay the rewards for future blocks as soon as we receive rights - before we even bake the blocks - that means you'll receive payments within a week of delegating to us (not 3+ weeks like others)!</p>
+																<p>All other rewards (endorsements, fees and bonuses) are paid out at the end of the cycle they are baled (6 cycles before we receive them). The delay with other rewards is because they are unpredictable and misses may occur from no fault of our own.</p>
                             </div>
                         </div>
                         <div class="accordian__item">
                             <div class="accordian__item-header">
                                 <h5 class="mb-0">
                                     <button class="btn  btn-link collapsed accordian__toggle" data-toggle="collapse"
-                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <div>What is TezTech Lab?</div>
+                                        data-target="#collapse2" aria-expanded="false" aria-controls="collapseTwo">
+                                        <div>Do you share transaction rewards and double bake bonuses?</div>
                                         <div class="accordian__toggle-icon">
                                             <img src="theme/dist/images/icons/plus-icon.svg" alt="Plus icon">
                                             <img src="theme/dist/images/icons/minus-icon.svg" alt="Minus icon">
@@ -320,12 +246,25 @@
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Curabitur
-                                    blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus.
-                                    Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis
-                                    consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed
-                                    consectetur.</p>
+                            <div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <p>All fees and double bake/endorse bonuses are shared like any other reward.</p>
+                            </div>
+                        </div>
+												<div class="accordian__item">
+                            <div class="accordian__item-header">
+                                <h5 class="mb-0">
+                                    <button class="btn  btn-link collapsed accordian__toggle" data-toggle="collapse"
+                                        data-target="#collapse3" aria-expanded="false" aria-controls="collapseTwo">
+                                        <div>What is your over-delegation policy?</div>
+                                        <div class="accordian__toggle-icon">
+                                            <img src="theme/dist/images/icons/plus-icon.svg" alt="Plus icon">
+                                            <img src="theme/dist/images/icons/minus-icon.svg" alt="Minus icon">
+                                        </div>
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse3" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <p>First in, first served. Stake that has contributed to overdelegation will not be elegible for rewards.</p>
                             </div>
                         </div>
                     </div>
@@ -344,14 +283,14 @@
 
                 <h2>Contact <span class="text-success">Us</span></h2>
 
-                <a class="mr-4" href="#">
+                <a class="mr-4" href="https://twitter.com/TezTechLabs" target="_blank">
                     <img src="theme/dist/images/icons/twitter-circle-icon.png" alt="Twitter">
                 </a>
-                <a href="">
+                <a href="https://github.com/TezTech" target="_blank">
                     <img src="theme/dist/images/icons/github-circle-icon.png" alt="Github">
                 </a>
 
-                <p>or email us at <a href="mailto:hello@teztechlab.io">hello@teztechlab.io</a></p>
+                <p>or email us at <a href="mailto:hello@teztech.io">hello@teztech.io</a></p>
             </div>
 
         </div>
@@ -359,12 +298,12 @@
         <div class="site-footer__copyright">
             <a href="#siteheader" id="scrollTop"><img src="theme/dist/images/icons/arrow-up.png" alt="Scroll to top"></a>
             <div class="container">
-                <p>Copyright &copy; 2018 TezTechLab. All Rights Reserved.</p>
+                <p>Copyright &copy; 2019 TezTech Labs. All Rights Reserved.</p>
                 <div class="site-footer__copyright-social">
-                    <a class="mr-3" href="#">
+                    <a class="mr-3" href="https://twitter.com/TezTechLabs" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="15" viewBox="0 0 18 15"><defs><path id="lv01a" d="M1667 5733.776a7.213 7.213 0 0 1-2.12.596 3.778 3.778 0 0 0 1.623-2.095 7.273 7.273 0 0 1-2.346.918 3.642 3.642 0 0 0-2.695-1.195c-2.038 0-3.692 1.696-3.692 3.787 0 .296.032.585.095.862-3.069-.158-5.79-1.664-7.612-3.958a3.856 3.856 0 0 0-.5 1.906c0 1.313.652 2.472 1.643 3.152a3.626 3.626 0 0 1-1.673-.473v.047c0 1.835 1.273 3.366 2.963 3.713-.31.089-.636.133-.973.133-.238 0-.47-.023-.695-.067.47 1.504 1.833 2.599 3.45 2.628a7.292 7.292 0 0 1-5.468 1.57 10.282 10.282 0 0 0 5.66 1.7c6.794 0 10.508-5.77 10.508-10.774 0-.164-.003-.329-.01-.49a7.58 7.58 0 0 0 1.842-1.96"/></defs><g><g transform="translate(-1649 -5732)"><use fill="#fff" xlink:href="#lv01a"/></g></g></svg>
                     </a>
-                    <a href="#">
+                    <a href="https://github.com/TezTech" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18"><defs><path id="b249a" d="M1617 5730c-4.972 0-9 4.13-9 9.227 0 4.076 2.579 7.537 6.155 8.756.452.084.615-.198.615-.444 0-.22-.008-.8-.011-1.568-2.505.555-3.032-1.238-3.032-1.238-.41-1.067-1-1.352-1-1.352-.817-.57.062-.558.062-.558.903.066 1.377.949 1.377.949.803 1.411 2.106 1.003 2.62.769.081-.598.316-1.004.57-1.235-1.997-.231-4.098-1.024-4.098-4.56 0-1.009.351-1.832.925-2.478-.09-.23-.4-1.17.088-2.441 0 0 .756-.247 2.476.946a8.406 8.406 0 0 1 2.253-.31 8.406 8.406 0 0 1 2.253.31c1.72-1.193 2.473-.946 2.473-.946.492 1.27.184 2.21.09 2.441.577.646.923 1.47.923 2.479 0 3.544-2.103 4.322-4.107 4.553.322.283.609.847.609 1.707 0 1.234-.008 2.228-.008 2.532 0 .246.16.534.618.444 3.573-1.222 6.149-4.68 6.149-8.756 0-5.097-4.028-9.227-9-9.227z"/></defs><g><g transform="translate(-1608 -5730)"><use fill="#fff" xlink:href="#b249a"/></g></g></svg>
                     </a>
                 </div>
@@ -374,7 +313,35 @@
 
     </div>
     <!-- end footer -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+		<script type="text/javascript">
+			function copyToClipboard(text) {
+  if (window.clipboardData && window.clipboardData.setData) {
+		return clipboardData.setData("Text", text); 
 
+  } else if (document.queryCommandSupported && document.queryCommandSupported("copy")) {
+		var textarea = document.createElement("textarea");
+		textarea.textContent = text;
+		textarea.style.position = "fixed"; 
+		document.body.appendChild(textarea);
+		textarea.select();
+		try {
+			return document.execCommand("copy"); 
+		} catch (ex) {
+			console.warn("Copy to clipboard failed.", ex);
+			return false;
+		} finally {
+			document.body.removeChild(textarea);
+		}
+  }
+}
+			$('docmenut').ready(function(){
+				$(".btn-copy").click(function(){
+					copyToClipboard("tz1Vtimi84kLh9RANfRVX2JvYtP4NPCT1aFm"); 
+					alert("Our delegate address has been copied!");
+				});
+			})
+		</script>
 </body>
 
 </html>
